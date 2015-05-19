@@ -1,0 +1,43 @@
+.calendar_table{
+    border:1px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar_td{
+    border: 1px solid black;
+    height: 30px;
+    width: 70px;
+    /*vertical-align: bottom;*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+.unit_block1{
+    /*border:1px solid black;*/
+    /*height: 50px;*/
+    /*width: 100px;*/
+    /*/!*float: left;*!/*/
+    /*background-color: coral;*/
+    /*/!*clear: left;*!/*/
+    /*display: block;*/
+    text-align: center;
+}
+.unit_block2{
+    clear: right;
+    border:1px solid black;
+    height: 50px;
+    width: 100px;
+    float: left;
+    background-color: burlywood;
+    display: inline;
+}
+.unit_block3{
+    border:1px solid black;
+    height: 50px;
+    width: 100px;
+    float: left;
+    background-color: coral;
+    clear: left;
+    display: block;
+}
