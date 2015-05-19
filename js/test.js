@@ -263,7 +263,7 @@ function createDayTable(calendar_container,c_date){
     for(var j=0;j< app_slots.length;j++){
         var app_time = $("<td/>").addClass('calendar_td').text(app_slots[j]);
         row.append(app_time);
-
+        table.append(row)
         var booking_slot = $("<td/>").addClass('calendar_td').text('');
         row.append(booking_slot);
         if(j != app_slots.length-1){
