@@ -1,2 +1,4 @@
 # Event-calendar
-A fully simple event base calendar(easy to implement in frontend)
+* A full basic calender ready to be implemented in the frontend applications.
+* Different events can be logged by just Clicking the dates in the calendar.
+* Integrated with Jquery UI for booking the custom notes on the dates.
